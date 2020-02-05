@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
-h1, h2, h3, h4, h5, h6, h7, p, ul{
+h1, p, ul{
     
     font-family: 'Vidaloka', serif;
     clear: left
@@ -18,7 +18,7 @@ body {
     Border-Color: white;
     padding: 50px;
     }
-    h1, h2, h3, h4, h5, h6, h7 {
+    h1 {
     text-align: center;
     color:black;
     font-style: italic;
