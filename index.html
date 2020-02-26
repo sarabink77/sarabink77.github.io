@@ -6,17 +6,22 @@
     <link rel="stylesheet" type="text/css" href="mywebsite.css"/>
 		
        		<style>
-	       #movelinks {
+	       div.movelinks {
 		       animation: animation1 2s;   
-		        -webkit-animation: animation1 2s;   
+		         
+			-webkit-animation: animation1 2s; 
+			position: relative;
+			top:0px; left:45%;
+
 			}
+
 			@keyframes animation1{
-				from{left:0px; Top:0px}
-				To{Top:0px; left:50%}
+				from{left:0px; top:0px;}
+				to{top:0px; left:45%;}
 			}
 			@-webkit-keyframes animation1{
-				from{left:0px; Top:0px}
-				To{Top:0px; left:50%}
+				from{left:0px; top:0px;}
+				to{top:0px; left:45%;}
 			}
 		</style>
 		
@@ -24,9 +29,9 @@
 	<body>
 		<h1>Art Portfolio</h1> 
 		<p style= "text-align:center ;">
-			Welcome to my art portfolio! This is a page displaying various pieces made by Sara Yuan <a href= "aboutme.html" target="_blank"> about me </a>. These pieces are created using different mediums, sizes and styles.
-			Here will be displayed pieces made in:
-			<div id="movelinks">
+			Welcome to my art portfolio! This is a page displaying various pieces made by Sara Yuan <a href= "aboutme.html" target="_blank"> about me </a>. 
+		These pieces are created using different mediums, sizes and styles, which are listed down below:
+			<div class="movelinks">
 			<ul>
 				<li><a href="index.html#watercolor">Watercolor Paint</a></li>
 				<li><a href="index.html#acrylic">Acrylic Paint</a></li>
