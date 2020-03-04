@@ -50,9 +50,9 @@ h1{
   text-decoration: none;
 }
 #linav a:hover:not(.active) {
-  background-color: #111;
+  background-color: light yellow;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: white;
 }
